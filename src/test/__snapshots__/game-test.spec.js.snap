@@ -1,0 +1,667 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tic tac toe functional test 2 Snapshot test new game and with two moves 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-8"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className=" m-3 col-lg-12"
+          >
+            Next turn:   
+            <span
+              className="player active"
+            >
+               Player 1: O 
+            </span>
+            <span
+              className="player"
+            >
+               Player 2: X
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="wrapper"
+        >
+          <div
+            className="board"
+            id="board"
+            onClick={[Function]}
+          >
+            <div
+              className="tic-cell blt btt"
+              id="0"
+            >
+              
+            </div>
+            <div
+              className="tic-cell btt"
+              id="1"
+            >
+              
+            </div>
+            <div
+              className="tic-cell btt brt"
+              id="2"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt"
+              id="3"
+            >
+              
+            </div>
+            <div
+              className="tic-cell"
+              id="4"
+            >
+              
+            </div>
+            <div
+              className="tic-cell brt"
+              id="5"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt bbt"
+              id="6"
+            >
+              
+            </div>
+            <div
+              className="tic-cell bbt"
+              id="7"
+            >
+              
+            </div>
+            <div
+              className="tic-cell bbt brt"
+              id="8"
+            >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title"
+          >
+            Game options:  
+          </div>
+          <div
+            className="input-group"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text"
+              >
+                <input
+                  aria-label="Checkbox for following text input"
+                  className=""
+                  onClick={[Function]}
+                  type="checkbox"
+                />
+              </span>
+            </div>
+            <input
+              className="form-control"
+              disabled={true}
+              placeholder="Zardoz Mode"
+              type="text"
+            />
+          </div>
+          <div
+            className="pt-4 row"
+          >
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                 New game 
+              </button>
+            </div>
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary disabled"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+              >
+                 Undo Last
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tic tac toe functional test 2 Snapshot test new game and with two moves 2`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-8"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className=" m-3 col-lg-12"
+          >
+            Next turn:   
+            <span
+              className="player active"
+            >
+               Player 1: O 
+            </span>
+            <span
+              className="player"
+            >
+               Player 2: X
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="wrapper"
+        >
+          <div
+            className="board"
+            id="board"
+            onClick={[Function]}
+          >
+            <div
+              className="tic-cell blt btt"
+              id="0"
+            >
+              
+            </div>
+            <div
+              className="tic-cell btt"
+              id="1"
+            >
+              <svg
+                className="circle piece"
+              >
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  fill="none"
+                  r="45%"
+                  stroke="#5a5a5a"
+                  strokeWidth="3"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell btt brt"
+              id="2"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt"
+              id="3"
+            >
+              <svg
+                className="cross piece"
+              >
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0%"
+                  x2="100%"
+                  y1="0"
+                  y2="100%"
+                />
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0"
+                  x2="100%"
+                  y1="100%"
+                  y2="0"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell"
+              id="4"
+            >
+              
+            </div>
+            <div
+              className="tic-cell brt"
+              id="5"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt bbt"
+              id="6"
+            >
+              
+            </div>
+            <div
+              className="tic-cell bbt"
+              id="7"
+            >
+              
+            </div>
+            <div
+              className="tic-cell bbt brt"
+              id="8"
+            >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title"
+          >
+            Game options:  
+          </div>
+          <div
+            className="input-group"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text"
+              >
+                <input
+                  aria-label="Checkbox for following text input"
+                  className=""
+                  onClick={[Function]}
+                  type="checkbox"
+                />
+              </span>
+            </div>
+            <input
+              className="form-control"
+              disabled={true}
+              placeholder="Zardoz Mode"
+              type="text"
+            />
+          </div>
+          <div
+            className="pt-4 row"
+          >
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                 New game 
+              </button>
+            </div>
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                 Undo Last
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tic tac toe functional test Snapshot test with win 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-8"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className=" m-3 col-lg-12"
+          >
+            Next turn:   
+            <span
+              className="player"
+            >
+               Player 1: O 
+            </span>
+            <span
+              className="player active"
+            >
+               Player 2: X
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="wrapper"
+        >
+          <div
+            className="board"
+            id="board"
+            onClick={[Function]}
+          >
+            <div
+              className="tic-cell blt btt"
+              id="0"
+            >
+              
+            </div>
+            <div
+              className="tic-cell btt"
+              id="1"
+            >
+              <svg
+                className="circle piece"
+              >
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  fill="none"
+                  r="45%"
+                  stroke="#5a5a5a"
+                  strokeWidth="3"
+                />
+              </svg>
+              <svg
+                className="strikeline"
+              >
+                <line
+                  className="wl"
+                  x1="48%"
+                  x2="48%"
+                  y1="0"
+                  y2="100%"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell btt brt"
+              id="2"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt"
+              id="3"
+            >
+              <svg
+                className="cross piece"
+              >
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0%"
+                  x2="100%"
+                  y1="0"
+                  y2="100%"
+                />
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0"
+                  x2="100%"
+                  y1="100%"
+                  y2="0"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell"
+              id="4"
+            >
+              <svg
+                className="circle piece"
+              >
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  fill="none"
+                  r="45%"
+                  stroke="#5a5a5a"
+                  strokeWidth="3"
+                />
+              </svg>
+              <svg
+                className="strikeline"
+              >
+                <line
+                  className="wl"
+                  x1="48%"
+                  x2="48%"
+                  y1="0"
+                  y2="100%"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell brt"
+              id="5"
+            >
+              
+            </div>
+            <div
+              className="tic-cell blt bbt"
+              id="6"
+            >
+              <svg
+                className="cross piece"
+              >
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0%"
+                  x2="100%"
+                  y1="0"
+                  y2="100%"
+                />
+                <line
+                  stroke="#f47521"
+                  strokeWidth="5"
+                  x1="0"
+                  x2="100%"
+                  y1="100%"
+                  y2="0"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell bbt"
+              id="7"
+            >
+              <svg
+                className="circle piece"
+              >
+                <circle
+                  cx="50%"
+                  cy="50%"
+                  fill="none"
+                  r="45%"
+                  stroke="#5a5a5a"
+                  strokeWidth="3"
+                />
+              </svg>
+              <svg
+                className="strikeline"
+              >
+                <line
+                  className="wl"
+                  x1="48%"
+                  x2="48%"
+                  y1="0"
+                  y2="100%"
+                />
+              </svg>
+            </div>
+            <div
+              className="tic-cell bbt brt"
+              id="8"
+            >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div
+        className="mt-4 card"
+      >
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title"
+          >
+            Game options:  
+            <strong>
+               
+              Circles win!
+            </strong>
+          </div>
+          <div
+            className="input-group"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <span
+                className="input-group-text"
+              >
+                <input
+                  aria-label="Checkbox for following text input"
+                  className=""
+                  onClick={[Function]}
+                  type="checkbox"
+                />
+              </span>
+            </div>
+            <input
+              className="form-control"
+              disabled={true}
+              placeholder="Zardoz Mode"
+              type="text"
+            />
+          </div>
+          <div
+            className="pt-4 row"
+          >
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                 New game 
+              </button>
+            </div>
+            <div
+              className="col-4"
+            >
+              <button
+                aria-label={null}
+                className="btn btn-secondary"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                 Undo Last
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

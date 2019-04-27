@@ -1,0 +1,65 @@
+/*game css*/
+
+.wrapper:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.board {
+  position:absolute;
+  width: 100%;
+  height:100%;
+  padding:15px;
+
+}
+
+.tic-cell{
+  float:left;
+  clear: none;
+  width:32%;
+  height:32%;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+
+.pieces-templates {
+  visibility: hidden;
+}
+
+.circleclass {
+  width: 100%;
+  height: 100%;
+  background: url("./assets/smudgeface.svg");
+  background-position:center;
+  background-size:cover;
+}
+
+
+.piece {padding-top:12%;
+  width: 70%;
+  height: 90%;
+}
+
+.player {
+  padding: 8px;
+  &.active {
+    border-bottom: 2px solid #f47521;
+  }
+}
+
+.strikeline {
+  position: relative;
+  height: 104%;
+  width: 104%;
+  margin-top: -84%;
+  margin-left: 0%;
+  stroke: #AAA;
+  stroke-width:4;
+}
+
+.blt { border-left:transparent;}
+.btt {border-top:transparent;}
+.bbt {border-bottom:transparent;}
+.brt {border-right:transparent;}
